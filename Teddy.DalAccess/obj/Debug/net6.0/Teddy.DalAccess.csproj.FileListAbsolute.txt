@@ -303,3 +303,5 @@ C:\Users\asus\source\repos\Teddy\Teddy.DalAccess\obj\Debug\net6.0\refint\Teddy.D
 C:\Users\asus\source\repos\Teddy\Teddy.DalAccess\obj\Debug\net6.0\Teddy.DalAccess.pdb
 C:\Users\asus\source\repos\Teddy\Teddy.DalAccess\obj\Debug\net6.0\Teddy.DalAccess.genruntimeconfig.cache
 C:\Users\asus\source\repos\Teddy\Teddy.DalAccess\obj\Debug\net6.0\ref\Teddy.DalAccess.dll
+C:\Users\asus\source\repos\Teddy\Teddy.DalAccess\bin\Debug\net6.0\Teddy.Utility.dll
+C:\Users\asus\source\repos\Teddy\Teddy.DalAccess\bin\Debug\net6.0\Teddy.Utility.pdb

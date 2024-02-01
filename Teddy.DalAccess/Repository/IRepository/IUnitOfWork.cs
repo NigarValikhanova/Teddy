@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Teddy.DalAccess.Repository.IRepository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,10 @@ namespace Teddy.DalAccess.Repository.IRepository
         ICategoryRepository Category { get; }
         IFoodTypeRepository FoodType { get; }
         IMenuItemRepository MenuItem { get; }
+        IShoppingCartRepository ShoppingCart { get; }
+        IOrderHeaderRepository OrderHeader { get; }
+        IOrderDetailRepository OrderDetail { get; }
+        IApplicationUserRepository ApplicationUser { get; }
         void Save();
     }
 }

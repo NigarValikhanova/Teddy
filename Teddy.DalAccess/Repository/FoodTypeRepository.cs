@@ -12,10 +12,12 @@ namespace Teddy.DalAccess.Repository
     public class FoodTypeRepository : Repository<FoodType>, IFoodTypeRepository
     {
         private readonly AppDbContext _db;
+
         public FoodTypeRepository(AppDbContext db) : base(db)
         {
             _db = db;
         }
+
 
         public void Update(FoodType obj)
         {
