@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\images\\menuItems\\8b73f5d7-b37c-4759-acd9-c37569154a70.jpeg",
       "PackagePath": "staticwebassets\\images\\menuItems\\8b73f5d7-b37c-4759-acd9-c37569154a70.jpeg"
     },
@@ -33,8 +37,24 @@
       "PackagePath": "staticwebassets\\images\\menuItems\\c68eb7bb-8d1a-4b34-9548-6f1cc7373cc8.jpeg"
     },
     {
+      "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\images\\mild.png",
+      "PackagePath": "staticwebassets\\images\\mild.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\images\\spicy.png",
+      "PackagePath": "staticwebassets\\images\\spicy.png"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\images\\verySpicy.png",
+      "PackagePath": "staticwebassets\\images\\verySpicy.png"
+    },
+    {
       "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\js\\menuItem.js",
       "PackagePath": "staticwebassets\\js\\menuItem.js"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\js\\orderList.js",
+      "PackagePath": "staticwebassets\\js\\orderList.js"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\Teddy\\TeddyWeb\\wwwroot\\js\\site.js",

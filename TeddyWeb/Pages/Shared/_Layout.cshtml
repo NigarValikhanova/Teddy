@@ -19,7 +19,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary  box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">AbbyWeb</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">TeddyWeb</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,8 @@
                         <li class="nav-item">
                             <a class="nav-link " asp-area="" asp-page="/Index">Home</a>
                         </li>
-                        @if (User.IsInRole(SD.ManagerRole) || User.IsInRole(SD.FrontDeskRole))
+
+                         @if (User.IsInRole(SD.ManagerRole) || User.IsInRole(SD.FrontDeskRole))
                         {
                             <li class="nav-item">
                                 <a class="nav-link " asp-area="" asp-page="/Admin/Order/OrderList">Order List</a>
@@ -59,7 +60,7 @@
                             <a class="nav-link text-white-50" asp-area="" asp-page="/Customer/Cart/Index">
                                 @await Component.InvokeAsync("ShoppingCart")
                             </a>
-                        </li>
+                        </li> 
 
                     </ul>
                     <partial name="_LoginPartial" />

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeddyWeb", "TeddyWeb\TeddyWeb.csproj", "{11F96AD0-2005-41E1-81F2-712C79D658AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeddyWeb", "TeddyWeb\TeddyWeb.csproj", "{11F96AD0-2005-41E1-81F2-712C79D658AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teddy.DalAccess", "Teddy.DalAccess\Teddy.DalAccess.csproj", "{418261D0-283F-4F8F-8118-6FDA38218763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teddy.DalAccess", "Teddy.DalAccess\Teddy.DalAccess.csproj", "{418261D0-283F-4F8F-8118-6FDA38218763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teddy.Models", "Teddy.Models\Teddy.Models.csproj", "{F0F229FF-9C58-4028-B1E9-B8366A6C92B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teddy.Models", "Teddy.Models\Teddy.Models.csproj", "{F0F229FF-9C58-4028-B1E9-B8366A6C92B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teddy.Utility", "Teddy.Utility\Teddy.Utility.csproj", "{281EDF32-80AA-4475-A94E-D85A4566CA67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teddy.Utility", "Teddy.Utility\Teddy.Utility.csproj", "{281EDF32-80AA-4475-A94E-D85A4566CA67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -78,12 +78,11 @@ namespace TeddyWeb.Pages.Customer.Cart
                     _unitOfWork.OrderDetail.Add(orderDetails);
                     
 				}
-                
                 //_unitOfWork.ShoppingCart.RemoveRange(ShoppingCartList);
                 _unitOfWork.Save();
 
 
-                 var domain = "https://localhost:44322/";
+                var domain = "https://localhost:7003/";
                 var options = new SessionCreateOptions
                 {
                     LineItems = new List<SessionLineItemOptions>()
