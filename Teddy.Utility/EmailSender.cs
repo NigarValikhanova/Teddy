@@ -23,7 +23,7 @@ namespace Teddy.Utility
 		public Task SendEmailAsync(string email, string subject, string htmlMessage)
 		{
 			var emailToSend = new MimeMessage();
-			emailToSend.From.Add(MailboxAddress.Parse("hello@dotnetmastery.com"));
+			emailToSend.From.Add(MailboxAddress.Parse("projectcreating696@gmail.com"));
 			emailToSend.To.Add(MailboxAddress.Parse(email));
 			emailToSend.Subject = subject;
 			emailToSend.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = htmlMessage };
@@ -33,13 +33,13 @@ namespace Teddy.Utility
 			using (var emailClient = new SmtpClient())
 			{
 				emailClient.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-				emailClient.Authenticate("dotnetmastery@gmail.com", "");
+				emailClient.Authenticate("projectcreating696@gmail.com", "projectcreating@123");
 				emailClient.Send(emailToSend);
 				emailClient.Disconnect(true);
 			}
 
 			var client = new SendGridClient(SendGridSecret);
-			var from = new EmailAddress("hello@dotnetmastery.com", "Abby Food");
+			var from = new EmailAddress("projectcreating696@gmail.com", "Teddy Food");
 			var to = new EmailAddress(email);
 			var msg = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
 

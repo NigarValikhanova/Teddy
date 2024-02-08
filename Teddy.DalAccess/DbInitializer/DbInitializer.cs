@@ -48,14 +48,14 @@ namespace Teddy.DalAccess.DbInitializer
 
                 _userManager.CreateAsync(new ApplicationUser
                 {
-                    UserName = "admin@dotnetmastery.com",
-                    Email = "admin@dotnetmastery.com",
+                    UserName = "manager@gmail.com",
+                    Email = "manager@gmail.com",
                     EmailConfirmed = true,
-                    FirstName = "Bhrugen",
-                    LastName = "Patel"
+                    FirstName = "Nigar",
+                    LastName = "Valikhanova"
                 }, "Admin123*").GetAwaiter().GetResult();
 
-                ApplicationUser user = _db.ApplicationUser.FirstOrDefault(u => u.Email == "admin@dotnetmastery.com");
+                ApplicationUser user = _db.ApplicationUser.FirstOrDefault(u => u.Email == "manager@gmail.com");
 
                 _userManager.AddToRoleAsync(user,SD.ManagerRole).GetAwaiter().GetResult();
 
